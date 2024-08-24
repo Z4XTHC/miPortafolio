@@ -99,6 +99,27 @@ body {
   justify-content: center;
   margin-top: 2rem; 
 }
+/* Estilos para el botón de acción */
+.btn_acciones {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Estilo para los botones en el modal */
+.boton-morado {
+  background-color: #8a2be2;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boton-morado:hover {
+  background-color: #6933ff;
+}
 
 /* Estilos para los botones */
 .boton-verde,
@@ -133,16 +154,6 @@ body {
 }
 
 
-.boton {
-  background-color: rgb(125, 0, 125);
-  color: #fff;
-  border: none;
-  padding: 1rem 2rem;
-  margin-right: 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
 .boton:hover {
   background-color: #6933ff;
 }
@@ -161,7 +172,6 @@ body {
 .boton:hover {
   background-color: #6933ff;
 }
-
 /* Mi Historia */
 .mi-historia {
   background-color: #f9f9f9;
@@ -172,11 +182,10 @@ body {
 
 .mi-historia-content {
   width: 100%;
-
   text-align: center;
 }
 
- .mi-historia-texto {
+.mi-historia-texto {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -191,10 +200,13 @@ body {
 }
 
 .mi-historia-texto p {
-  width: 80%;
+  width: 60%; /* Reduce el ancho para mejorar la legibilidad */
   font-size: 1rem;
-
+  text-align: justify; /* Justifica el texto */
+  line-height: 1.6; /* Ajusta la altura de línea para mayor claridad */
+  margin-bottom: 1rem; /* Añade espacio entre párrafos */
 }
+
 
 .mi-historia-imagen {
   width: 30%;
@@ -479,4 +491,26 @@ body {
 
 .mangoStore-copy {
   color: #8a2be2;
+}
+
+.custom-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.custom-gallery img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.custom-gallery img:hover {
+  transform: scale(1.05);
+}
+
+.custom-image-modal img {
+  width: 100%;
+  height: auto;
 }
