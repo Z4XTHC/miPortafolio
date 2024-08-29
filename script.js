@@ -1,20 +1,20 @@
 const galleryImages = [
     './assets/img/proyectos_img/fixPhones_gallery/fixPhone-home.png',
     './assets/img/proyectos_img/fixPhones_gallery/fixPhone-body.png',
+    './assets/img/proyectos_img/fixPhones_gallery/fixPhone-login.png',
     './assets/img/proyectos_img/fixPhones_gallery/fixPhone-botonConsultar.png',
     './assets/img/proyectos_img/fixPhones_gallery/fixPhone-detallesConsulta.png',
+    './assets/img/proyectos_img/fixPhones_gallery/fixPhone-diagnosticoOrden.png',
     './assets/img/proyectos_img/fixPhones_gallery/fixPhone-generarOrden.png',
     './assets/img/proyectos_img/fixPhones_gallery/fixPhone-ordenGenerada.png',
     './assets/img/proyectos_img/fixPhones_gallery/fixPhone-preguntaImpresion.png',
     './assets/img/proyectos_img/fixPhones_gallery/fixPhone-imprimir.png',
+    './assets/img/proyectos_img/fixPhones_gallery/fixPhone-listadoOrdenes.png',
     './assets/img/proyectos_img/fixPhones_gallery/fixPhone-editarOrden.png',
-    './assets/img/proyectos_img/fixPhones_gallery/fixPhone-diagnosticoOrden.png',
-    './assets/img/proyectos_img/fixPhones_gallery/fixPhone-.png',
-    './assets/img/proyectos_img/fixPhones_gallery/fixPhone-.png',
-    './assets/img/proyectos_img/fixPhones_gallery/fixPhone-.png',
-    './assets/img/proyectos_img/fixPhones_gallery/fixPhone-.png',
-    './assets/img/proyectos_img/fixPhones_gallery/fixPhone-.png',
-    './assets/img/proyectos_img/fixPhones_gallery/fixPhone-.png'
+    './assets/img/proyectos_img/fixPhones_gallery/fixPhone-generarUsuario.png',
+    './assets/img/proyectos_img/fixPhones_gallery/fixPhone-editarUsuario.png',
+    './assets/img/proyectos_img/fixPhones_gallery/fixPhone-listadoUsuario.png'
+
 ];
 
 document.getElementById('verFotos_fixPhone').addEventListener('click', () => {
