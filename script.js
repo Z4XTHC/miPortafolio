@@ -74,21 +74,6 @@ document.getElementById('verCambiosSST').addEventListener('click', function () {
                     <li>🏷️ El proyecto cambió de nombre: <strong>Fix Phones</strong> ahora es <strong>Service Fix</strong> o <strong>Sistema de Servicios Técnicos</strong>.</li>
                     <li>🔧 Enfoque más orientado a la reparación de smartphones y computadoras.</li>
                 </ul>
-                <hr>
-
-                <h3>📅 16 de agosto de 2024</h3>
-                <ul>
-                    <li>➕ Se agregó un modal para visualizar cambios por fecha.</li>
-                    <li>🐛 Corrección de errores menores en la interfaz.</li>
-                    <li>🚀 Mejoras en el rendimiento del formulario de pedidos.</li>
-                </ul>
-                <hr>
-
-                <h3>📅 10 de agosto de 2024</h3>
-                <ul>
-                    <li>🔒 Implementación de validaciones en formularios.</li>
-                    <li>✅ Se añadió verificación de tokens CSRF.</li>
-                </ul>
             </div>
         `,
         showCloseButton: true,
